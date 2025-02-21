@@ -3,6 +3,7 @@ pragma solidity 0.8.18;
 
 import {AprOracleBase} from "@periphery/AprOracle/AprOracleBase.sol";
 
+//e- Not in our scope, but it looks like it tells us the expected APR of a strategy after funds change.
 contract StrategyAprOracle is AprOracleBase {
     constructor() AprOracleBase("Strategy Apr Oracle Example", msg.sender) {}
 

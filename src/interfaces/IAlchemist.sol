@@ -1,5 +1,7 @@
 pragma solidity 0.8.18;
 
+//q- what is the alchemist?
+//a- Responsible for depositing tokens, minting alAssets, withdrawing tokens and engaging in the yield farmning strats
 interface IAlchemist {
 
     struct YieldTokenConfig {

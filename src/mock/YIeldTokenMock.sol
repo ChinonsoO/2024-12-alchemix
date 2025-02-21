@@ -3,10 +3,10 @@ pragma solidity ^0.8.13;
 import {IERC20} from "../../lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
 import {ERC20} from "../../lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import {SafeERC20} from "../../lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol";
-import "../../lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol";
+// import "../../lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol";
 
 contract YieldTokenMock is ERC20 {
-    using SafeMath for uint256;
+    // using SafeMath for uint256;
     using SafeERC20 for IERC20;
     IERC20 public underlying;
     uint256 public totalDeposited;

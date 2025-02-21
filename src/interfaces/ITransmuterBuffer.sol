@@ -1,6 +1,6 @@
 pragma solidity 0.8.18;
 
-
+//q- What is a transumeter buffer, why do we need a buffer?
 interface ITransmuterBuffer {
     function exchange(address _underlyingToken) external;
     function depositFunds(address _underlyingToken, uint256 _amount) external;

@@ -1,6 +1,9 @@
 pragma solidity 0.8.18;
 
+//q- What is the transmuter?
+//a - Converts alAssets to their underlying assets over time
 
+//e-Claming underlying tokens burns the al assets.
 interface ITransmuter {
     function deposit(uint256 _amount, address _owner) external;
     function claim(uint256 _amount, address _owner) external;

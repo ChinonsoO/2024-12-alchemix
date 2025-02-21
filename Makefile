@@ -10,7 +10,7 @@ inspect :; forge inspect ${contract} storage-layout --pretty
 
 FORK_URL := ${ETH_RPC_URL} 
 # FORK_URL := ${ARBI_RPC_URL} 
-# FORK_URL := ${OPTIMISM_RPC_URL} 
+FORK_URL := ${OPTIMISM_RPC_URL} 
 
 
 

@@ -145,7 +145,7 @@ contract OperationTest is Setup {
         assertEq(strategy.claimableBalance(), 0, "!claimableBalance");
         assertGt(strategy.totalAssets(), _amount, "!totalAssets");
 
-        assertEq(strategy.totalAssets(), strategy.claimableBalance(), "Force Failure");
+        // assertEq(strategy.totalAssets(), strategy.claimableBalance(), "Force Failure");
 
     }
 

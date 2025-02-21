@@ -1,6 +1,6 @@
 pragma solidity 0.8.18;
 
-
+//q- what are the purposes of these interfaces, Icurve do these come from external contracts?
 interface ICurveStableSwapNG {
     function exchange(int128 i, int128 j, uint256 dx, uint256 minDy, address _receiver) external;
     function price_oracle(uint256 i) external view returns (uint256);
